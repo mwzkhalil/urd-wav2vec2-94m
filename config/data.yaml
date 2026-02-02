@@ -1,0 +1,8 @@
+# Dataset configuration
+dataset:
+  metadata_path: "metadata.csv"
+  audio_dir: "audio"
+  max_duration: 30.0  # Maximum audio duration in seconds
+  min_duration: 0.5   # Minimum audio duration in seconds
+  train_ratio: 0.9    # Train/validation split ratio
+  seed: 42            # Random seed for splitting

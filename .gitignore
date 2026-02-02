@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+
+# Large data folders & files (do NOT commit these)
+audio/
+metadata.csv
+
+# Training artifacts – usually huge
+checkpoints/
+
+# Logs & temp files
+logs/
+*.log
+
+# Jupyter notebooks – especially scratch/test ones
+test.ipynb
+*.ipynb_checkpoints/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Common OS/editor junk
+.DS_Store
+Thumbs.db
+*~
+.vscode/
+.idea/

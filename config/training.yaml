@@ -1,0 +1,28 @@
+# Training configuration
+model:
+  model_name: "mahwizzzz/urd-wav2vec2-94m"
+  cache_dir: null
+
+training:
+  output_dir: "checkpoints"
+  logging_dir: "logs"
+  num_train_epochs: 10
+  per_device_train_batch_size: 8
+  per_device_eval_batch_size: 8
+  gradient_accumulation_steps: 4
+  learning_rate: 3.0e-4
+  warmup_steps: 500
+  weight_decay: 0.01
+  fp16: true
+  dataloader_num_workers: 4
+  save_strategy: "epoch"
+  evaluation_strategy: "epoch"
+  save_total_limit: 3
+  load_best_model_at_end: true
+  metric_for_best_model: "wer"
+  greater_is_better: false
+  logging_steps: 100
+  eval_steps: 500
+  save_steps: 500
+  seed: 42
+  report_to: "tensorboard"
