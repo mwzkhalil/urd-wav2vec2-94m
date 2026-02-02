@@ -4,7 +4,7 @@ Fine-tuning Wav2Vec2 CTC models for Urdu Automatic Speech Recognition (ASR).
 
 ## Overview
 
-This repository provides a complete pipeline for fine-tuning the `mahwizzzz/urd-wav2vec2-94m` model on custom Urdu speech datasets. The implementation uses HuggingFace Transformers with CTC loss, mixed precision training, and comprehensive evaluation metrics.
+This repository provides a pipeline for finetuning the `mahwizzzz/urd-wav2vec2-94m` model on custom Urdu speech datasets. The implementation uses HuggingFace Transformers with CTC loss, mixed precision training, and comprehensive evaluation metrics.
 
 ## Features
 
@@ -26,7 +26,8 @@ This repository provides a complete pipeline for fine-tuning the `mahwizzzz/urd-
 
 1. Clone this repository:
 ```bash
-cd merged_dataset
+git clone https://github.com/mwzkhalil/urd-wav2vec2-94m.git
+cd urd-wav2vec2-94m
 ```
 
 2. Create and activate virtual environment:
