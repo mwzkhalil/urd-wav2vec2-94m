@@ -1,4 +1,4 @@
-# Urdu ASR: Wav2Vec2 CTC Fine-tuning
+# Urdu ASR 94m: Wav2Vec2 CTC Fine-tuning
 
 Fine-tuning Wav2Vec2 CTC models for Urdu Automatic Speech Recognition (ASR).
 
